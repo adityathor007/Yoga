@@ -7,6 +7,7 @@
 body {
   font-family: "inter", serif;
   color: #343a40;
+  border-bottom: 8px solid #087f5b;
 }
 
 .container {
@@ -46,6 +47,9 @@ body {
 }
 /* SECOND HEADING  */
 .header-sec {
+  background-color: #087f5b;
+  color: #fff;
+  padding: 22px;
   margin-top: 150px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -60,9 +64,10 @@ body {
   margin-left: 150px;
 }
 
+
 .beginers {
   font-size: 40px;
-  color: #365314;
+  color: #fff;
   letter-spacing: 1px;
 }
 
@@ -201,4 +206,8 @@ section {
   line-height: 1.4;
   margin-top: 5px;
   margin-left: 100px;
+}
+
+footer {
+  margin-bottom: 30px;
 }
