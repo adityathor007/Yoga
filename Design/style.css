@@ -1,13 +1,16 @@
-* {
+
+
+ *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
+ }
 
 body {
   font-family: "inter", serif;
   color: #343a40;
   border-bottom: 8px solid #087f5b;
+  border-top: 8px solid #087f5b;
 }
 
 .container {
@@ -44,6 +47,7 @@ body {
   width: 100%;
   grid-column: 3/4;
   grid-row: 1/3;
+  border-radius: 20px;
 }
 /* SECOND HEADING  */
 .header-sec {
@@ -151,6 +155,12 @@ section {
   margin-bottom: 100px;
   display: flex;
   gap: 100px;
+}
+
+.img {
+  border-radius: 15px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .ul {
