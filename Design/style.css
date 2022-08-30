@@ -28,9 +28,9 @@ body {
 .header-text {
   color: #365314;
   font-family: serif;
-  letter-spacing: -2px;
-  line-height: 1;
-  font-size: 40px;
+  letter-spacing: -3px;
+  line-height: 0.9;
+  font-size: 45px;
   margin-bottom: 20px;
 }
 
@@ -53,6 +53,7 @@ body {
 .header-sec {
   background-color: #087f5b;
   color: #fff;
+  border-radius: 20px;
   padding: 22px;
   margin-top: 150px;
   display: grid;
@@ -84,9 +85,8 @@ body {
   line-height: 1.7;
 }
 
-.img-sec {
-  width: 100%;
-  grid-column: 1/2;
+.sec-img {
+ border-radius: 5px;
 }
 /* THIRD HEADING  */
 
