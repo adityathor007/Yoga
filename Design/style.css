@@ -23,7 +23,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 50px;
-  margin-top: 60px;
+  margin-top: 80px;
   margin-bottom: 100px;
 }
 
@@ -33,16 +33,16 @@ body {
   letter-spacing: -3px;
   line-height: 0.9;
   font-size: 52px;
-  margin-top: 90px;
+  margin-top: 70px;
   margin-bottom: 30px;
 }
 
 .header-para {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 20px;
   color: #1f2937;
-  letter-spacing: 2px;
-  line-height: 1.7;
+  letter-spacing: 1px;
+  line-height: 1.8;
   margin-bottom: 20px;
 }
 
@@ -54,7 +54,7 @@ body {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 18px;
-  padding: 12px 24px;
+  padding: 14px 28px;
   border-radius: 25px;
   display: inline-block;
   }
@@ -68,8 +68,6 @@ body {
 
 .first-image {
   width: 100%;
-  /* grid-column: 3/4; */
-  /* grid-row: 1/3; */
   border-radius: 20px;
 }
 
@@ -80,23 +78,23 @@ body {
   color: #fff;
   border-radius: 20px;
   padding: 22px;
-  margin-top: 150px;
+  margin-top: 140px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-bottom: 100px;
+  margin-bottom: 130px;
 }
 
 .sec-text {
   grid-column: 2/4;
   grid-row: 3/-1;
   column-gap: 10px;
-  margin-top: 30px;
+  margin-top: 17px;
   margin-left: 150px;
 }
 
 
 .beginers {
-  font-size: 40px;
+  font-size: 50px;
   color: #fff;
   letter-spacing: 1px;
 }
@@ -104,10 +102,10 @@ body {
 .para {
   grid-column: 2/4;
   grid-row: 1/2;
-  margin-top: 90px;
-  font-size: 15px;
-  letter-spacing: 1.9px;
-  line-height: 1.7;
+  margin-top: 85px;
+  font-size: 16px;
+  letter-spacing: 2.5px;
+  line-height: 1.9;
 }
 
 .sec-img {
@@ -125,31 +123,31 @@ body {
  }
  .ut {
   grid-column: 1/2;
-  font-size: 16px;
+  font-size: 17px;
   letter-spacing: 1.3px;
-  line-height: 1.4;
+  line-height: 1.8;
   grid-row: 2/3;
  }
 
  .us {
   grid-column:2/3;
-  font-size: 16px;
+  font-size: 17px;
   letter-spacing: 1.3px;
-  line-height: 1.4;
+  line-height: 1.8;
   grid-row:2/3 ;
  }
 
 .ur {
   grid-column:3/4 ;
-  font-size: 16px;
+  font-size: 17px;
   letter-spacing: 1.3px;
-  line-height: 1.4;
+  line-height: 1.8;
   grid-row: 2/3;
 }
  .h-1 {
   color: #365314;
   grid-column: 1/2;
-  font-size: 30px;
+  font-size: 35px;
   letter-spacing: -1px;
   line-height: 1;
 
@@ -159,7 +157,7 @@ body {
 grid-column:2/3;
 color: #365314;
  grid-row: 1/2;
- font-size: 30px;
+ font-size: 35px;
  letter-spacing: -1px;
  line-height: 1;
  }
@@ -168,7 +166,7 @@ color: #365314;
  grid-column:3/4 ;
  color: #365314;
  grid-row: 1/2;
- font-size: 30px;
+ font-size: 35px;
  margin-bottom: 10px;
  letter-spacing: -1px;
  line-height: 1;
@@ -177,59 +175,41 @@ color: #365314;
 
     .men-1 {
       stroke: #365314;
-      width: 22px;
-      height: 22px;
+      width: 20px;
+      height: 20px;
     }
 
     .men-2 {
       stroke: #365314;
-      width: 22px;
-      height: 22px;
+      width: 20px;
+      height: 20px;
     }
 
     .men-3 {
       stroke: #365314;
-      width: 22px;
-      height: 22px;
+      width: 20px;
+      height: 20px;
     }
 
     .men-4 {
       stroke: #365314;
-      width: 22px;
-      height: 22px;
+      width: 20px;
+      height: 20px;
     }
 
-    /* .women-1 {
-      stroke: #365314;
-      width: 22px;
-      height: 22px;
-    }
 
-    .women-2 {
-      stroke: #365314;
-      width: 22px;
-      height: 22px;
-    }
-
-    .women-3 {
-      stroke: #365314;
-      width: 22px;
-      height: 22px;
-    } */
-  
-    .women-4{
-      stroke: #365314;
-      width: 22px;
-      height: 22px;
-    }
 /* FINAL HEADING*/
 section {
-  margin-top: 150px;
+  margin-top: 130px;
   margin-bottom: 100px;
   display: flex;
-  gap: 100px;
+  gap: 150px;
 }
 
+     /* EXAMPLE OF SHADOW BOX  
+      .final-box {
+       box-shadow: 0 30px 10px 0 #000;
+} */
 .img {
   border-radius: 15px;
   border-bottom-left-radius: 0;
@@ -250,7 +230,7 @@ section {
 }
 
 .physical {
-  font-size: 16px;
+  font-size: 17px;
   letter-spacing: 1.3px;
   line-height: 1.7;
 }
@@ -265,9 +245,10 @@ section {
 }
 
 .ul {
-  font-size: 16px;
+  font-size: 17px;
   letter-spacing: 1.3px;
   line-height: 1.7;
+  margin-left: 5px;
 }
 
 .bene {
@@ -280,14 +261,15 @@ section {
 }
 
 .yoga {
-  font-size: 16px;
+  font-size: 17px;
   color: #365314;
   letter-spacing: 1.3px;
-  line-height: 1.7;
+  line-height: 1.8;
+  margin-left:5px ;
 }
 
 .gita {
-  font-size: 16px;
+  font-size: 17px;
   letter-spacing: 1.3px;
   line-height: 1.7;
   margin-top: 5px;
